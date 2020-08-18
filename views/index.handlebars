@@ -2,12 +2,12 @@
 <div class="container">
 <h1>Eat-Da-Burger!</h1>
 
- <img id='image' src='./assets/images/burger.jpg' width='35%' height='250'>
+ <img id='image' src='./assets/images/burger.jpg' class= "rounded-circle" >
 
 </div>
 <div id='ready'>
 
-<h2> Devoured!</h2>
+<h2> Devour!</h2>
   <ul>
     {{#each burgers}}
     {{#unless devoured}}
@@ -34,9 +34,11 @@
   <form class="create-form">
 
     <div class="form-group">
+      <div class = "d-flex flex-row justify-content-center">
       <label for="burg">Burger Type:</label>
       <input type="text" id="burg" name="burger_name">
       <button class="btn btn-primary" type="submit">Add Burger</button>
+      </div>
     </div>
   </form>
 </div>

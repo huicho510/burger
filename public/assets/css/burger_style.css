@@ -6,6 +6,9 @@ li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
   }
   
   .label {
@@ -35,6 +38,7 @@ li {
   #devoured {
     float: right ;
     padding-right: 10%;
+    
   }
   
   #add {
@@ -42,12 +46,12 @@ li {
     text-align: center;
     margin: 0, auto;
     clear: both;
+    font-size: 18px;
   }
   
   img {
-    margin: 0 auto;
     padding: 25px;
-    height: 300px;
+    height: 350px;
   }
 
   label {
@@ -59,17 +63,10 @@ li {
     margin: auto;
     text-align: center;
   }
-
-  /* .devour{
-    background-color: aqua;
+  #burg {
     border-radius: .25rem;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-  border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-
-
-  } */
+    border: 1px solid transparent;
+    height: 34px;
+    margin: 3px;
+    
+  }
